@@ -1,0 +1,113 @@
+* {/*Fuente Inicial*/
+    font-family: Arial, sans-serif;
+}
+
+h1 {/*Modifica la sentencia h1 "Puede aplicarse al igual para h2 a h6"*/
+    color: green !important;
+    font-family: Impact;
+}
+
+h5 {
+    color: seagreen;
+    font-family: Impact;
+}
+
+h2 {
+    color: dodgerblue;
+    font-family: Impact;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+/*Modifica y organiza e pie de pagina*/
+header {
+    display: block;
+    padding: 12px;
+    background-color: darkslategrey;    
+    text-align: right;
+}
+/* Se utiliza para modificar el estilo del redirrecionador (URL/LINK) del pie de pagina*/
+header a{
+    display: block;
+    color: cornsilk;
+}
+/* Se utiliza para modificar o estrcuturar el contenido principal de la pagina*/
+main {
+    display: block;
+}
+/* Se utiliza para modificar el estilo del contenedor donde albergan las listas*/
+aside {
+    display: block;
+    padding-left: 12px;
+    background-color: cadetblue;
+}
+/* Se utiliza para modificar el estilo de las listas*/
+ul li{
+    list-style: none;
+    padding-block-end: 79px;
+    padding-block-start: 79px;
+}
+
+ul li a{
+    color: cornsilk;
+}
+/* Se utiliza para manipular el margen de los contenedores*/
+.container{
+    max-width: initial;
+}
+
+footer{
+    background-color: darkslategrey;
+    position: absolute;
+    bottom: 0;/*0 lo envia al fondo - 1 lo envia al bloque mas cercano superior*/
+    height: 100px; 
+    width: 100%;
+    text-align: center;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.content{
+    padding: 20px;
+}
+
+[class^="group"]{
+    display: inline-block;
+    text-align: center;
+}
+
+[class^="group"] span.number {
+    font-size: 35px;
+    font-weight: 700px;
+}
+
+[class^="group"] span {
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+}
+
+[class^="group"].col-4 {
+    width: calc(33% - 4px);
+}
+
+
+button, .btn.btn-primary {
+    background: darkseagreen;
+    border: solid 1px black;
+    color: black;
+}
+
+button, .btn.btn-secondary {
+    background: darkslategrey;
+    border: solid darkslategrey;
+    color: cornsilk;
+    display: block;
+    transform: translateY(110%);
+    font-family: 'Franklin Gothic Medium';
+}
+
